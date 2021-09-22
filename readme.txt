@@ -14,3 +14,15 @@ Day 1
 Дополнительное задание:
 Реализуйте фокус для input
 
+Day 2
+Адаптив для шапки и реализация следующей секции
+
+Полезные ссылки
+Расширение PerfectPixel для Chrome (экспортировать дизайн из Фигмы как jpg и дать его этому расширению)
+https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=ru
+PixelPerfect для Firefox
+
+Обязательное задание:
+Повторить то, что было в видео
+Дополнительное задание:
+Закончите адаптив блока film-week и не забудьте про focus и active у кнопок и ссылок

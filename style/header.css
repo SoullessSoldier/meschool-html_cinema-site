@@ -19,17 +19,24 @@
 .header__search-form{
     flex-grow: 1;
     height: 70px;
-    padding-left: 73px;
+    padding-left: 60px;
     background: url(/img/search.svg) left 15px center no-repeat;
     background-color: var(--color-second);
     border-radius: 6px;
+    overflow: hidden;
 }
 .header__search-input{
+    padding-left: 13px;
     width: 100%;
     height: 100%;
     background-color: transparent;
     border: none;
     outline: none;
+    font-size: 24px;
+    color: var(--color-text);
+}
+.header__search-input:focus{
+    background-color: var(--color-primary);
 }
 .header__burger-btn{
     width: 106px;
@@ -50,4 +57,16 @@
 .header__burger-btn:hover .header__burger-svg,
 .header__burger-btn:active .header__burger-svg{
     stroke: var(--color-primary);
+}
+@media (max-width: 768px){
+    .header__container{
+        flex-wrap: wrap;
+    }
+    .header__search-form{
+        order: 1;
+        width: 100%;
+        height: 50px;
+        padding-left: 50px;
+        background-position: left 10px center;
+    }
 }

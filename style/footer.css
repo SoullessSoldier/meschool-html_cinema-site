@@ -64,6 +64,7 @@
     margin-bottom: 20px;
 }
 .regulation__offer{
+    max-width: 310px;
     font-size: 16px;
     line-height: 140%;
     opacity: 0.6;
@@ -74,6 +75,7 @@
     margin-bottom: 20px;
 }
 .partners__description{
+    max-width: 310px;
     font-size: 16px;
     line-height: 140%;
     opacity: 0.6;
